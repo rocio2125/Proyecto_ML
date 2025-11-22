@@ -55,8 +55,8 @@ with tab2:
     texto_3 = """
     <p style="text-align: justify;">
     El propósito de este proyecto es desarrollar un modelo de regresión basado en técnicas de Machine Learning que permita estimar el 
-    precio diario de la electricidad a partir del mix energético disponible. Este modelo se entrenará utilizando datos históricos que
-    incluyan:<br><br>
+    precio diario de la electricidad a partir del mix energético disponible. Este modelo se entrenó utilizando datos históricos que
+    incluyen:<br><br>
     - La contribución de cada tecnología al mix energético diario.<br>
     - Precio resultante en el mercado mayorista.<br><br>
     El objetivo final es construir un modelo capaz de anticipar el comportamiento del precio, facilitando la toma de decisiones
@@ -82,7 +82,7 @@ with tab2:
         Para la construcción del predictor se ha utilizado un modelo de 
         <span style="text-decoration: underline; font-weight:600;">Random Forest Regressor</span>, seleccionado por su capacidad 
         para capturar relaciones no lineales y su buen desempeño en problemas de predicción complejos. 
-        El modelo ha sido evaluado sobre un conjunto de validación de un 20% de los datos, obteniendo las siguientes métricas.
+        El modelo ha sido evaluado sobre un conjunto de testeo de un 20% de los datos, obteniendo las siguientes métricas:
       </p>
 
       <p style="text-align: justify; margin-top:0.2rem;">
