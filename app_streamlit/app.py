@@ -5,8 +5,7 @@ import numpy as np
 st.title('Predicción del precio de la electricidad')
 
 # Carga modelo
-with open("../models/final_model.pkl", "rb") as f:
-    
+with open("models/final_model.pkl", "rb") as f:
     modelo = pickle.load(f)
 
 # Crear pestañas
