@@ -1,6 +1,6 @@
-# ⚡️ Predicción del Precio Mayorista de la Electricidad (PVPC)
+# ⚡️ Predicción del Precio de la Electricidad
 
-Este repositorio contiene un proyecto de Machine Learning centrado en la **predicción del precio mayorista de la electricidad (PVPC)**. El precio de la electricidad es una variable crucial en los mercados energéticos, y su volatilidad diaria está influenciada por factores como la demanda y la composición del mix energético (renovables, térmica, etc.).
+Este repositorio contiene un proyecto de Machine Learning centrado en la **predicción del precio de la electricidad**. El precio de la electricidad es una variable crucial en los mercados energéticos, y su volatilidad diaria está influenciada por factores como la demanda y la composición del mix energético (renovables, térmica, etc.).
 
 El objetivo es desarrollar un modelo de regresión robusto capaz de pronosticar el precio diario promedio a partir de la composición del mix.
 
@@ -73,11 +73,11 @@ Para replicar este análisis:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [URL_DEL_REPOSITORIO]
+    git clone [https://github.com/rocio2125/Proyecto_ML.git]
     ```
 2.  **Instala las dependencias de Python:**
     ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn requests
+    $ pip install -r requirements.txt
     ```
 3.  **Obtén un Token de ESIOS** (necesario para el primer notebook).
 4.  Ejecuta los notebooks en orden (`01_Fuentes.ipynb`, `02_LimpiezaEDA.ipynb`, `03_Entrenamiento_Evaluacion.ipynb`).
