@@ -1,0 +1,10 @@
+,visual,filter,modelo,rfe,sfs,voting,pca
+0,carbon,nuclear,eolica,nuclear,nuclear,carbon,0.5068528222363745
+1,cogeneracion,carbon,nuclear,carbon,carbon,cogeneracion,0.23375504872240405
+2,ciclo_combinado,ciclo_combinado,carbon,ciclo_combinado,ciclo_combinado,ciclo_combinado,0.11808333624050357
+3,exportacion_marruecos,hidraulica,ciclo_combinado,hidraulica,hidraulica,hidraulica,0.05824216283784064
+4,hidraulica,solar_fotovoltaica,hidraulica,solar_fotovoltaica,solar_fotovoltaica,solar_fotovoltaica,0.032464766972969544
+5,solar_fotovoltaica,cogeneracion,solar_fotovoltaica,cogeneracion,cogeneracion,nuclear,0.025047028862098964
+6,,,cogeneracion,,,,0.009105445759689412
+7,,,importacion_portugal,,,,0.007464453529431447
+8,,,,,,,0.003601287707461293
