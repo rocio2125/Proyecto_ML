@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.title('Predicción del precio de la electricidad')
+st.title('Previsor energético')
 
 # Carga modelo
 with open("models/final_model.pkl", "rb") as f:
@@ -26,14 +26,14 @@ el precio de la electricidad en €/MWh según la combinación elegida.
     col1, col2, col3 = st.columns([6, 6, 6])
 
     with col1:
-        carbon = st.slider("Carbón (MWh)", 0.0, 1770.0, 350.0, 10.0)
-        cogeneracion = st.slider("Cogeneración (MWh)", 730.0, 3300.0, 1950.0, 10.0)
-        ciclo_combinado = st.slider("Ciclo combinado (MWh)", 710.0, 15380.0, 4040.0, 10.0)
+        carbon = st.slider("Carbón", 0.0, 1770.0, 350.0, 10.0)
+        cogeneracion = st.slider("Cogeneración", 730.0, 3300.0, 1950.0, 10.0)
+        ciclo_combinado = st.slider("Ciclo combinado", 710.0, 15380.0, 4040.0, 10.0)
             
     with col2:
-        hidraulica = st.slider("Hidráulica (MWh)", 520.0, 8150.0, 2840.0, 10.0)
-        solar_fotovoltaica = st.slider("Solar fotovoltaica (MWh)", 0.0, 11010.0, 4940.0, 10.0)
-        nuclear = st.slider("Nuclear (MWh)", 10.0, 7140.0, 6280.0, 10.0)
+        hidraulica = st.slider("Hidráulica", 520.0, 8150.0, 2840.0, 10.0)
+        solar_fotovoltaica = st.slider("Solar fotovoltaica", 0.0, 11010.0, 4940.0, 10.0)
+        nuclear = st.slider("Nuclear", 10.0, 7140.0, 6280.0, 10.0)
 
     with col3:
         if st.button("Predecir precio €/MWh"):
